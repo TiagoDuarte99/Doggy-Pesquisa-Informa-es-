@@ -14,7 +14,7 @@
 - **index.js**: A lógica JavaScript que controla a funcionalidade de pesquisa, solicitações à API e paginação. Carrega dinamicamente os dados das raças e processa a entrada de pesquisa e navegação pelos resultados.
 - **db.json**: Um banco de dados local contendo informações detalhadas sobre várias raças de cães, como nomes, pesos, alturas, temperamentos e imagens.
 
-## Começando
+## Iniciar
 
 ### Pré-requisitos
 Para executar este projeto localmente, certifique-se de ter o seguinte:
@@ -26,15 +26,17 @@ Para executar este projeto localmente, certifique-se de ter o seguinte:
 1. Clone este repositório para a sua máquina local:
    ```bash
    git clone https://github.com/your-repo-url/doggy.git
-Navegue até o diretório do projeto:
+   
+###Navegue até o diretório do projeto:
 bash
 Copiar código
 cd doggy
 Inicie o servidor local usando json-server:
-bash
-Copiar código
-json-server --watch db.json --port 3000
-Executando a Aplicação
+   ```bash
+   json-server --watch db.json --port 3000
+
+
+###Executar a Aplicação
 Abra o arquivo index.html no seu navegador web.
 Utilize a barra de pesquisa para inserir o nome de uma raça de cão e clique no botão "Fetche!" para obter os dados sobre a raça.
 Pode navegar pela lista de raças de cães usando os botões "Próximo" e "Anterior".
