@@ -27,26 +27,25 @@ Para executar este projeto localmente, certifique-se de ter o seguinte:
    ```bash
    git clone https://github.com/your-repo-url/doggy.git
    
-###Navegue até o diretório do projeto:
-bash
-Copiar código
-cd doggy
-Inicie o servidor local usando json-server:
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd doggy
+   
+3. Inicie o servidor local usando json-server:
    ```bash
    json-server --watch db.json --port 3000
 
-
-###Executar a Aplicação
-Abra o arquivo index.html no seu navegador web.
-Utilize a barra de pesquisa para inserir o nome de uma raça de cão e clique no botão "Fetche!" para obter os dados sobre a raça.
-Pode navegar pela lista de raças de cães usando os botões "Próximo" e "Anterior".
-Funcionalidade de Pesquisa
-Pode pesquisar raças de cães digitando um nome na barra de pesquisa.
-Se uma raça for encontrada, informações detalhadas sobre essa raça serão exibidas.
-Se a pesquisa não retornar resultados, uma mensagem de erro será exibida.
-Tecnologias Utilizadas
-HTML5 para a estruturação da página web.
-CSS3 para o estilo da página e design responsivo.
-JavaScript (ES6) para manipulação de interações do utilizador, chamadas à API e atualização dinâmica de conteúdo.
-Bootstrap 5 para o design responsivo e componentes de UI.
-FontAwesome para os ícones.
+### Executar a Aplicação
+- Abra o arquivo index.html no seu navegador web.
+- Utilize a barra de pesquisa para inserir o nome de uma raça de cão e clique no botão "Fetche!" para obter os dados sobre a raça.
+- Pode navegar pela lista de raças de cães usando os botões "Próximo" e "Anterior".
+#### Funcionalidade de Pesquisa
+- Pode pesquisar raças de cães digitando um nome na barra de pesquisa.
+- Se uma raça for encontrada, informações detalhadas sobre essa raça serão exibidas.
+- Se a pesquisa não retornar resultados, uma mensagem de erro será exibida.
+#### Tecnologias Utilizadas
+- HTML5 para a estruturação da página web.
+- CSS3 para o estilo da página e design responsivo.
+- JavaScript (ES6) para manipulação de interações do utilizador, chamadas à API e atualização dinâmica de conteúdo.
+- Bootstrap 5 para o design responsivo e componentes de UI.
+- FontAwesome para os ícones.
